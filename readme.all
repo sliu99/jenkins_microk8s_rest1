@@ -1,0 +1,12 @@
+
+This project is originally from 
+/home/sliu/book_code/docker_and_kubernetes_for_java_developers_2017/Docker-and-Kubernetes-for-Java-Developers-master/rest-example-multiStages
+
+
+This app builds a jenkins pipeline with microk8s that build, test, deploy the app.
+
+* Use readme.github.txt to create github repository jenkins_microk8s_rest1.
+
+
+
+
