@@ -7,6 +7,14 @@ This app builds a jenkins pipeline with microk8s that build, test, deploy the ap
 
 * Use readme.github.txt to create github repository jenkins_microk8s_rest1.
 
+* Start jenkins locally with stages build, test and depoy. Each stage calls a shell to print "build", "test",
+    and "deploy". See readme.start_jenkins.txt.
+    Create new pipeline jenkins_microk8s_rest1.
+    
+* Change the shell to do real things, such as "mvn clean package", "mvn test".
 
+* Start microk8s.
+
+* deploy shell will create service, deployment in microk8s
 
 
