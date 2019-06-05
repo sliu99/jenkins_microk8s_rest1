@@ -10,6 +10,10 @@ This app builds a jenkins pipeline with microk8s that build, test, deploy the ap
 * Start jenkins locally with stages build, test and depoy. Each stage calls a shell to print "build", "test",
     and "deploy". See readme.start_jenkins.txt.
     Create new pipeline jenkins_microk8s_rest1.
+    In Config tab, click "Add source" in Branch Sources section, select GitHub, 
+    Owner: sliu99, Repository: jenkins_microk8s_rest1,
+    Click Add button in Branch Sources section.
+    This configuration makes build agains code in github repository, so needs to check in latest code before the build.
     
 * Change the shell to do real things, such as "mvn clean package", "mvn test".
 
