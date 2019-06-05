@@ -1,2 +1,3 @@
 #/bin/sh
-echo "Test stage"
+echo "== Test stage =="
+mvn test

@@ -1,3 +1,3 @@
 #/bin/sh
-echo "Build stage:"
-mvn clean package
+echo "== Build stage =="
+mvn -DskipTests clean package
