@@ -1,3 +1,3 @@
 #/bin/sh
 echo "== Test stage =="
-mvn test
+mvn test2
