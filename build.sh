@@ -1,3 +1,3 @@
 #/bin/sh
-echo "== Build stage =="
+echo "== Build Stage =="
 mvn -DskipTests clean package

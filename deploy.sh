@@ -1,2 +1,2 @@
 #/bin/sh
-echo "== Deploy stage =="
+echo "== Deploy Stage =="

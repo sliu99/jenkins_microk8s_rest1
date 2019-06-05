@@ -18,7 +18,10 @@ This app builds a jenkins pipeline with microk8s that build, test, deploy the ap
 * Change the shell to do real things, such as "mvn clean package", "mvn test".
    When build, jar file is created in /home/sliu/.jenkins/workspace/jenkins_microk8s_rest1_master/target
 
-* Start microk8s.
+* Start microk8s. see readme.start_microk8s.txt
+
+//delete service
+microk8s.kubectl delete service rest-example
 
 * deploy shell will create service, deployment in microk8s
 

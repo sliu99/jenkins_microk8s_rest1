@@ -11,6 +11,16 @@ pipeline {
                 sh 'test.sh'
             }
         }
+        stage('Create Service') {
+            steps {
+                sh 'createService.sh'
+            }
+        }
+        stage('Create Deployment') {
+            steps {
+                sh 'createDeployment.sh'
+            }
+        }        
         stage('Deploy') {
             steps {
                 sh 'deploy.sh'
